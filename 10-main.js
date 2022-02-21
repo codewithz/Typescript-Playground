@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var _10_zpoint_1 = require("./10-zpoint");
+var point1000 = new _10_zpoint_1.DXCPoint(10, 20);
+point1000.draw();
+var point2000 = new _10_zpoint_1.DXCPoint();
+point2000.x = 200;
+point2000.y = 10;
+point2000.draw();
+point1000.getDifference(point2000);
