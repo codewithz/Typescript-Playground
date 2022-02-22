@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var like_1 = require("./like");
+var component = new like_1.LikeComponent(0, true);
+component.displayState();
+console.log("Clicking Like Button");
+component.onClick();
+component.displayState();
+console.log("Clicking Like Button Again..");
+component.onClick();
+component.displayState();
